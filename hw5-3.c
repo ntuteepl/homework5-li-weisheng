@@ -16,7 +16,6 @@ int main() {
         totalPayment = 60 * hourlyWage + 60 * hourlyWage * 1.33 + (hoursWorked - 120) * hourlyWage * 1.66;
     }
 
-
     printf("%.1f", totalPayment);
 
     return 0;
